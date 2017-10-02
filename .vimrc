@@ -14,8 +14,13 @@ Plug 'flazz/vim-colorschemes'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'ternjs/tern_for_vim'
 Plug 'scrooloose/syntastic'
+Plug 'bling/vim-bufferline'
 
 call plug#end()
+
+" Airline configuration
+let g:airline#extensions#tabline#enabled = 1
+
 
 " Syntax highlighting
 colo molokai
@@ -67,5 +72,5 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Set the mouse to allow scrolling
 set mouse=a
-
+set encoding=utf-8
 
